@@ -20,6 +20,24 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Structure
+mini-event-manager/
+ ├── app/
+ │    ├── page.tsx          → Default landing page
+ │    └── events/
+ │         └── page.tsx     → Main Events Manager UI
+ ├── public/
+ │    └── screenshot.png    → UI Screenshot (attach manually)
+ ├── README.md              → Project documentation
+ ├── package.json
+ └── tsconfig.json
+
+## Path of the Page
+
+All event manager features are available at:
+
+/events
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
